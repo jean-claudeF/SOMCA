@@ -12,4 +12,13 @@ SOMCA has the following purposes:
 3. from these calculate charge in As and Ah, and energy in Wh
 4. store these values for later analysis
 
+In contrast to my other project https://github.com/jean-claudeF/LiIonCapacityMeter that does about the same for single 18650 cells, this is for use with "bigger" batteries like those for electric bicycles or modules from electric cars, like those that i use in my solar energy project.
+
+
+
+Limitations:
+- voltage must be >= ca. 4V, otherwise the MOSFET will not correctly switch on
+- currents up to 10A should be no problem, I have not tested with more
+
+
   
