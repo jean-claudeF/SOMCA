@@ -20,5 +20,19 @@ Limitations:
 - voltage must be >= ca. 4V, otherwise the MOSFET will not correctly switch on
 - currents up to 10A should be no problem, I have not tested with more
 
+## Switching unit
+
+![Picture](switch.png)
+
+The switching is done by Q1, a low resistance PMOS transistor.
+
+D1 is a zener diode preventing excessive gate voltages.
+
+Q2 must have a high enough VCEmax, the BC546 it is OK for up to 60V. 
+
+There is a voltage divider providing ADC0 signal, and a shunt R15 providing the ADC1 signal for measuring the current.
+
+![Picture](bcd.png)
+
 
   
