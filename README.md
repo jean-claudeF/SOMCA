@@ -40,7 +40,7 @@ There is a voltage divider providing ADC0 signal, and a shunt R15 providing the 
 
 ![Picture](bcd.png)
 
-I used these nice BCD switches because they were laying around and I thought they would be happy to serve in a real application. Another motivation was that I had used the MCP23017 port expander recently and i liked it very much.
+I used these nice BCD switches because they were laying around and I thought they would be happy to serve in a real application. Another motivation was that I had used the MCP23017 port expander recently and I liked it very much.
 The port expander is connected to the I2C bus and so only needs 2 Pico pins.
 
 ### Display and ADC
