@@ -70,7 +70,12 @@ A LED blinks every second while discharging.
 
 ## Micropython software
 
-will soon be updated I hope
+The somca_xx file is imported by main.py
+
+There is a folder test that contains test programs for all hardware elements. This concept is really useful for debugging.
+
+A file info.txt contains a keyword that is used for communication with the PC software.
+
 
 ## Python software 
 
