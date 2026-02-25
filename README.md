@@ -86,7 +86,7 @@ Then it reads the file values.dat, calculates the stored charge in Ah and energy
 
 I added an option to read stored data files.
 
-
+![Picture](diagram.jpg)
 
 
 
