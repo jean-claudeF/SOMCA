@@ -79,7 +79,14 @@ A file info.txt contains a keyword that is used for communication with the PC so
 
 ## Python software 
 
-will soon be updated I hope
+For simplicity there is a command line interface. If you want, you can easily make a Tkinter interface instead.
+
+The connection with the Pico is done with the module picoconnect_pa02. This automatically finds the right Pico with the keyword "SOMCA" in the file info.txt, and connects.
+Then it reads the file values.dat, calculates the stored charge in Ah and energy in Wh, and plots several interesting diagrams.
+
+I added an option to read stored data files.
+
+
 
 
 
